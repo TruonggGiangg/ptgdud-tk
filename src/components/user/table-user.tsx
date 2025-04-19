@@ -7,8 +7,8 @@ import type { ActionType, ProColumns } from '@ant-design/pro-components';
 import dayjs from 'dayjs';
 import isSameOrAfter from 'dayjs/plugin/isSameOrAfter';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore';
-// import UserCreate from './create-user';
-// import UserDetail from './detail-user';
+import UserCreate from './create-user';
+import UserDetail from './detail-user';
 
 // Enable plugins for date range filtering
 dayjs.extend(isSameOrAfter);
@@ -435,7 +435,7 @@ const TableUser: React.FC = () => {
 
     return (
         <>
-            {/* <UserCreate
+            <UserCreate
                 isOpenCreateModal={isOpenCreateModal}
                 setIsOpenCreateModal={setIsOpenCreateModal}
                 reload={reload}
@@ -445,7 +445,7 @@ const TableUser: React.FC = () => {
                 setIsOpenDetailModal={setIsOpenDetailModal}
                 dataDetailModal={dataDetailModal}
                 setDataDetailModal={setDataDetailModal}
-            /> */}
+            />
             <h1
                 style={{
                     fontSize: '24px',

@@ -10,7 +10,7 @@
       "__v": 0,
       "role": "moderator",
       "createdAt": "2025-01-01T10:00:00Z",
-      "updatedAt": "2025-04-13T07:37:01.398Z",
+      "updatedAt": "2025-04-19T18:43:46.712Z",
       "createdBy": {
         "_id": "admin1",
         "email": "admin1@example.com"
@@ -140,6 +140,26 @@
       "role": "admin",
       "createdAt": "2025-04-13T07:36:42.203Z",
       "updatedAt": "2025-04-13T07:36:42.203Z",
+      "createdBy": {
+        "_id": "admin1",
+        "email": "admin1@example.com"
+      },
+      "updatedBy": {
+        "_id": "admin1",
+        "email": "admin1@example.com"
+      }
+    },
+    {
+      "id": "f949",
+      "name": "dadasd",
+      "email": "truonggiang2129911z@gmail.com",
+      "password": "3123123123",
+      "age": 123,
+      "gender": "Nữ",
+      "address": "abc",
+      "role": "admin",
+      "createdAt": "2025-04-19T18:45:38.832Z",
+      "updatedAt": "2025-04-19T18:45:38.832Z",
       "createdBy": {
         "_id": "admin1",
         "email": "admin1@example.com"
